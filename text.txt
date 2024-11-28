@@ -1,0 +1,1 @@
+Asadbek js faylga addEventlistener funksiyasini qoshib qoyadi!
