@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    background-color: #0dd8ce;
+}
+.product {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    border-radius: 15%;
+}
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20%;
+}
+.cart {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    border-radius: 12%;
+    background-color: green;
+}
+body {
+    text-align: center;
+    background-color: aqua;
+}
+button {
+    border-radius: 12%;
+}

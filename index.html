@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Savdo Karzinkasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Online Do'kon</h1>
+    
+    <div id="products">
+        <div class="product">
+            <img src="/img/iphone.webp" alt="Iphone">
+            <h3>Iphone</h3>
+            <p>2000 USD</p>
+            <button onclick="addToCart(2000)">Savatchaga qo'shish</button>
+        </div>
+        <div class="product">
+            <img src="./img/mackbok.jpg" alt="Mackbok">
+            <h3>Mackbok</h3>
+            <p> 5000 USD</p>
+            <button onclick="addToCart(5000)">Savatchaga qo'shish</button>
+        </div>
+        <div class="product">
+            <img src="./img/watch.webp" alt="Apple Watch">
+            <h3>Apple Watch</h3>
+            <p>1 500 USD</p>
+            <button onclick="addToCart(1500)">Savatchaga qo'shish</button>
+        </div>
+    </div>
+
+    <div class="cart">
+        <h3>Savatcha</h3>
+        <p id="total-price">Umumiy Narx: 0 USD</p>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+</html>
